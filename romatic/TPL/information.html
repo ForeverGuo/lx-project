@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>
+        漫步人生-免费网络图书馆
+        (全国最大免费网上借阅实体书网站,实现读者一切可能
+    </title>
+    <link rel="stylesheet" href="../css/public.css">
+    <link rel="stylesheet" href="../css/information.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../smoothness/jquery.ui.css">
+</head>
+<body>
+<div class="header">
+    <div class="header-title">
+        <div class="title-b">
+            <div class="b-left">
+                <ul>
+                    <li>欢迎来到漫步人生！</li>
+                    <li><a href="http://www.weibo.com">
+                        <img src="../images/wb.png" class="l-img" alt="">
+                    </a></li>
+                    <li>
+                        <img src="../images/m1.png" class="l-img" id="left-t" alt="">
+                    </li>
+                </ul>
+            </div>
+            <div class="b-right">
+                <ul>
+                    <li class="r-o"><a href="#">
+                        提醒
+                    </a></li>
+                    <li><a href="#">
+                        还书
+                    </a></li>
+                    <li><a href="#">
+                        借阅车
+                    </a></li>
+                    <li><a href="#">
+                        我的借阅卡
+                    </a></li>
+                    <li><a href="#">
+                        我的书房
+                    </a></li>
+                    <li class="r-li">
+                        <div class="r-logo">
+                            <div class="r-zhu">
+                                <a href="register.html">
+                                    <img src="../images/regis.png" alt="">
+                                </a>
+                            </div>
+                            <div class="r-deng">
+                                <a href="#">
+                                    <img src="../images/log.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="header-body">
+        <div class="body-m">
+            <div class="m-left">
+                <a href="javascript:;">
+                    <img src="../images/logo.gif" alt="">
+                </a>
+            </div>
+            <div class="gif">
+                <div class="gif-o">
+                    <img src="../images/mif.png" alt="">
+                </div>
+                <div class="gif-t">
+                    <img src="../images/mif2.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="body-b">
+            <div class="b-right"></div>
+            <div class="b-li">
+                <ul>
+                    <li onclick="gif()"><a href="../index.html">首页</a></li>
+                    <li><a href="library.html">图书</a></li>
+                    <li id="b-li-t"><a href="society.html">社会馆</a></li>
+                    <li style="background:url(../images/b9.png)no-repeat center;"><a href="#" style="color:#fff;">资源检索</a></li>
+                    <li id="b-li-r"><a href="lotus.html">莲花风采</a></li>
+                    <li><a href="#">点书台</a></li>
+                    <li id="b-li-f"><a href="#">帮助中心</a></li>
+                    <li><a href="#">论坛</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- 触发事件（mouseover） -->
+        <div class="yinCang">
+            <div class="s-h-g" id="shg">
+                <p class="bug"></p>
+                <ul>
+                    <li><a href="society1.html">企业馆</a></li>
+                    <li><a href="society2.html">校园馆</a></li>
+                    <li><a href="society1.html">幼园馆</a></li>
+                    <li><a href="society3.html">书天馆</a></li>
+                </ul>
+            </div>
+            <div class="l-h-f" id="lhf">
+                <p class="bug"></p>
+                <ul>
+                    <li><a href="lotus.html">公司简介</a></li>
+                    <li><a href="lotus1.html">发展历程</a></li>
+                    <li><a href="#">员工故事</a></li>
+                    <li><a href="#">招纳贤士</a></li>
+                    <li><a href="#">网站地图</a></li>
+                    <li><a href="#">莲花厅</a></li>
+                </ul>
+            </div>
+            <div class="b-z-z" id="bzz">
+                <p class="bug"></p>
+                <ul>
+                    <li><a href="#">新手上路</a></li>
+                    <li><a href="#">读书指南</a></li>
+                    <li><a href="#">读者指南</a></li>
+                    <li><a href="#">物流配送</a></li>
+                    <li><a href="#">网站地图</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!--内容第一部分  -->
+<div class="content">
+    <form action="" method="post">
+        <div class="in" style="padding-top:20px;" >
+            <div class="in_a">书名：</div>
+            <div class="in_b">
+                <input type="text" name="bookname" id="bookname">
+            </div>
+        </div>
+        <div class="in">
+            <div class="in_a">作者：</div>
+            <div class="in_b">
+                <input type="text" name="bookname" id="auts">
+            </div>
+        </div>
+        <div class="in">
+            <div class="in_a">出版社：</div>
+            <div class="in_b">
+                <input type="text" name="bookname" id="pressid">
+            </div>
+        </div>
+        <div class="in">
+            <div class="in_a">Isbn：</div>
+            <div class="in_b">
+                <input type="text" name="bookname" id="isbn">
+            </div>
+        </div>
+        <div class="in">
+            <div class="in_a">出版时间：</div>
+            <div class="in_b">
+                <input type="text" name="bookname" id="stime">
+            </div>
+            <div>
+                <span style="position:absolute;margin:3px;">至</span>
+                <div class="in_b" style="margin-left:23px;">
+                    <input type="text" id="etime" name="etime" />
+                </div>
+            </div>
+        </div>
+        <div>
+            <input type="submit" value="" id="sub" />
+        </div>
+    </form>
+</div>
+
+<!--    底部的内容   -->
+<div class="footer">
+    <div class="foot_content">
+        <ul>
+            <li>
+                <h2>联系我们</h2>
+                <a href="javascript:;">详细信息</a>
+            </li>
+            <li>
+                <h2>公司资料</h2>
+                <a href="javascript:;">机构信用代码证</a>
+                <a href="javascript:;">税务登记证</a>
+                <a href="javascript:;">营业执照</a>
+                <a href="javascript:;">网站地图</a>
+                <a href="javascript:;">网站域名证书</a>
+            </li>
+            <li>
+                <h2>媒体关注</h2>
+                <a href="javascript:;">宣传媒体</a>
+                <a href="javascript:;">媒体关注</a>
+            </li>
+            <li>
+                <h2>书言摘录</h2>
+                <a href="javascript:;">创意说明</a>
+                <a href="javascript:;">书言摘录</a>
+            </li>
+            <li>
+                <h2>爱的寄语</h2>
+                <a href="javascript:;">四方支持</a>
+
+            </li>
+            <li>
+                <h2>关于捐书</h2>
+                <a href="javascript:;">捐书细则</a>
+            </li>
+        </ul>
+    </div>
+    <div class="foot_l_content">
+        <p>信息产业部增值许可证:粤B1,B2-20080198广电经营许可证号:（粤）字第557号</p>
+        <p>双软编号:DGY-2009-2004粤ICP备12030263号-1</p>
+    </div>
+</div>
+</body>
+<script type="text/javascript" src="../js/jquery-1.11.3.js"></script>
+<script type="text/javascript" src="../js/jquery.ui.js"></script>
+<script type="text/javascript" src="../js/public.js"></script>
+<script>
+    $(function(){
+        $("#stime").datepicker();
+        $("#etime").datepicker();
+    });
+</script>
+</html>

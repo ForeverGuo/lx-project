@@ -1,0 +1,62 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: "微软雅黑";
+}
+body{
+	overflow: hidden;
+	background-image: url(../img/run_bg.jpeg);
+	/*background-size: 100%;*/
+	background-repeat: no-repeat;
+	color: white;
+	height: 890px;
+	width: 100%;
+}
+.content{
+	width: 82%;
+	min-width: 1200px;
+	margin:0 auto;
+	padding-top: 60px;
+    
+}
+.moveleft{
+	float: left;
+}
+.imgs img{
+	display: block;
+	height: 80px;
+}
+.imgs .max{
+	margin-top: 120px;
+	margin-left: 150px;
+	height: 74px;
+}
+.erweima{
+	margin-top: 160px;
+	margin-left: 0;
+}
+.erweima img{
+	height: 130px;
+}
+.c-btn{
+	margin-left: 150px;
+	margin-top: -110px;
+}
+.c-btn button{
+	background: none;
+	color: #fc4c02;
+	padding: 7px 22px;
+	border: 2px solid #fc4c02;
+	font-size: 28px;
+	border-radius: 4px;
+}
+.c-btn button:hover{
+	background-color: #fc4c02;
+	color: white;
+}
+.fr{
+	float: right;
+}
+.c-phone{
+	height: 500px;
+}

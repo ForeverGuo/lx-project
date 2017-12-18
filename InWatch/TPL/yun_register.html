@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0" />
+		<meta http-equiv="X-UA-COMPATIBLE" content="ie=dege" />
+		<title>映趣通行证-注册</title>
+		<link rel="stylesheet" href="../css/animate.min.css">
+		<link rel="stylesheet" href="../css/bootstrap.css">
+		<link rel="stylesheet" href="../css/yun_login.css" />
+		<script src="../js/jquery-1.10.1.js"></script>
+		<script src="../js/bootstrap.js"></script>
+	</head>
+	<body>
+		<div class="row">
+			<div class="col-lg-offset-1 col-lg-10 col-md-offset-1 col-md-10 col-sm-offset-1 col-sm-10 col-xs-12 div_reg">
+				<img src="../img/logo-passport-m.png" class="img-responsive" />
+				<div class="bg" >
+				<div class="col-lg-6  col-md-6 hidden-sm hidden-xs min_L">
+					<p>One account is all you need</p>
+					<h3>一个映趣账号通向映趣的一切服务</h3>
+					<div class="col-lg-3  col-md-3 col-sm-3 col-xs-3" >
+						<img src="../img/icon_in.png" class="img-responsive"/>
+					</div>
+					<div class="col-lg-3  col-md-3 col-sm-3 col-xs-3">
+						<img src="../img/icon_oldman.png" class="img-responsive"/>
+					</div>
+					<div class="col-lg-3  col-md-3 col-sm-3 col-xs-3">
+						<img src="../img/icon_watch.png" class="img-responsive"/>
+					</div>
+					<div class="col-lg-3  col-md-3 col-sm-3 col-xs-3">
+						<img src="../img/inCare.png" class="img-responsive"/>
+					</div>
+				</div>
+				<div class="col-lg-6  col-md-6 col-sm-6 col-xs-12 min_div" >
+					<div class="min_div_div">
+						<h3>注册你的映趣通行证</h3>
+						<form action="" method="post" onsubmit="return login();" id="loginForm">
+								<div class="div_text">
+									<input type="text" name="user.username" id="uName" placeholder="请输入手机号码或邮箱" style="outline: none;"/>
+								</div>
+							    <span id="phone"></span><br />
+							 	<div class="div_pas">
+							 		<input type="password" name="user.password" id="uPass"  style="outline: none;"/>
+							 	</div>
+							    <span id="pwd"></span><br />
+							    <div class="yz">
+							    	<div class="col-lg-6  col-md-6 col-sm-6  col-xs-12 yz_div1">
+							    		<input type="text" placeholder="输入验证码" style="outline: none;"/>
+							    	</div>
+							    	<a href="javascript:;"><div class="col-lg-offset-1 col-lg-5 col-md-offset-1 col-md-5 col-sm-offset-1 col-sm-5 col-xs-offset-0 col-xs-12 yz_div2">
+							    		获取验证码
+							    	</div></a>
+							    </div>
+							  <br /> 
+							  <div class="chb" id="chb">
+							  	 <i><input type="checkbox"/> 我已阅读并同意相关服务条款和隐私政策 </i>
+							  </div> 
+							  <div class="div_sub " id="div_sub">
+							  	 <input type="submit" value="注册" class="sub" />  
+							  </div>	    
+						 </form>
+						 <div class="div_other">
+						 	<p>使用第三方软件直接登录：</p>
+						 	<div class="sqw">
+						 		<a href="javascript:;"><span class="sina"></span></a>
+							 	<a href="javascript:;"><span class="qq"></span></a>
+							 	<a href="javascript:;"><span class="wx"></span></a>
+						 	</div>
+						 </div>
+						 <div class="last">
+						 	已有账号, <a href="javascript:;"><span>直接登录></span></a>
+						 </div> 
+					</div>
+				</div>
+			</div>	
+			</div>
+			<div class="col-lg-12  col-md-12 col-sm-12 col-xs-12">
+				<p class="fot">©2013-2015, inwatch.All rights reserved.</p>
+			</div>
+		</div>
+	</body>
+	<script>
+		  function login() {
+		  // console.info("点击了登录");
+		  var userName = $("#uName").val();
+		  // console.info(userName)
+		  var userPass = $("#uPass").val();
+		  // console.info(userPass);
+		  if (userName == "" || userName == null) {
+		    $('#phone').html("手机号不能为空");
+		    return false;
+		  } else if (userPass == "" || userPass == null) {
+		    $('#pwd').html("密码不能为空");
+		    return false;
+		  } else {
+		    return true;
+		  }
+		}
+	</script>
+</html>

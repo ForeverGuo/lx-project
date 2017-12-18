@@ -1,0 +1,38 @@
+*{
+    padding:0;
+    margin:0;
+}
+#header{
+    width:100%;
+    height:60px;
+    position: fixed;
+    top:0;
+    background-color:#ff22b7;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#content{
+    position: fixed;
+    top:60px;
+    bottom:60px;
+    width:100%;
+    background-color:#e7fff4;
+    color:mediumpurple;
+}
+#footer{
+    position:fixed;
+    bottom:0;
+    height:60px;
+    width:100%;
+    background-color:#ff22b7;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+a{
+    text-decoration:none;
+    color:#fff;
+    font-size:16px;
+}

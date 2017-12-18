@@ -1,0 +1,604 @@
+body,html{
+    position:relative;
+    height:100%;
+    font-size:62.5%;
+}
+
+*{
+    margin:0;
+    padding:0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif,"微软雅黑";
+    font-size:14px;
+}
+
+.head-two{
+     background-color:rgba(241,241,241,0.85);
+     opacity:0.8;
+     position: fixed;
+     top:70px;
+     width:100%;
+     height:50px;
+     border-bottom:1px solid #ccc;
+    z-index:2;
+ }
+.head-two .two-content{
+    width:1200px;
+    height:50px;
+    margin:0 auto;
+    color:#fff;
+}
+.two-content ul{
+    float: right;
+}
+.two-content ul li{
+    list-style: none;
+    float: left;
+    height:50px;
+    line-height:50px;
+    margin-right:20px;
+}
+.two-content ul li a{
+    font-size:14px;
+    color:#555;
+}
+.two-content ul li a:hover{
+    text-decoration: none;
+}
+.two-content .shouYe{
+    background-color:#fff;
+    padding:0 8px;
+    border-bottom:1px solid #ccc;
+}
+.two-content .shangShi{
+    display:inline-block;
+    border:1px solid #fff;
+    height:25px;
+    line-height:25px;
+    background-color:#fff;
+    padding:0 2px;
+    border-radius:10%;
+}
+.two-content .shop{
+    display:inline-block;
+    border-color: #285e8e;
+    height:25px;
+    line-height:25px;
+    background-color:#3071a9;
+    color:#fff;
+    padding:0 2px;
+    border-radius:10%;
+}
+
+/*----------内容开始--------*/
+.swiper-containerWare {
+    width: 100%;
+    height: 100%;
+    margin:0;
+    padding:0;
+}
+.swiper-containerWare.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    width:100%;
+    /*background: #fff;*/
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.WareBack{
+    background:#888;
+    background-size:100%;
+}
+
+
+.WareContent{
+    height:100%;
+    width:100%;
+}
+.WareContent .row{
+    height:100%;
+}
+.WareContent #running{
+    width:24%;
+    height:20%;
+    position: absolute;
+    top:50%;
+    left:30%;
+}
+.WareContent #running h2{
+    font-weight:bold;
+}
+.WareContent #running h3{
+    margin:0;
+    padding:0;
+    font-weight: normal;
+}
+.WareContent #running p{
+    margin-top:20px;
+
+}
+
+/*-------五个原点----*/
+.WareContent .col-md-offset-2 a{
+    color: #428bca;
+    text-decoration: none;
+}
+.WareContent .col-md-offset-2 .link{
+    display: inline-block;
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    position: absolute;
+    left:0;
+    top:140px;
+    -webkit-animation: tada 5s infinite;
+    -moz-animation: tada 5s infinite;
+    animation: tada 5s infinite;
+    background-color: #92b4e0;
+    filter: alpha(opacity=80);
+    opacity:0.8;
+    z-index:99;
+}
+.WareContent .col-md-offset-2 #circle2{
+    display: inline-block;
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    position: absolute;
+    left:50px;
+    top:210px;
+    -webkit-animation: tada 5s infinite;
+    -moz-animation: tada 5s infinite;
+    animation: tada 5s infinite;
+    background-color: #92b4e0;
+    filter: alpha(opacity=80);
+    opacity:0.8;
+    z-index:99;
+}
+.WareContent .col-md-offset-2 #circle3{
+    display: inline-block;
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    position: absolute;
+    left:150px;
+    top:250px;
+    -webkit-animation: tada 5s infinite;
+    -moz-animation: tada 5s infinite;
+    animation: tada 5s infinite;
+    background-color: #92b4e0;
+    filter: alpha(opacity=80);
+    opacity:0.8;
+    z-index:99;
+}
+.WareContent .col-md-offset-2 #circle4{
+    display: inline-block;
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    position: absolute;
+    left:80px;
+    top:350px;
+    -webkit-animation: tada 5s infinite;
+    -moz-animation: tada 5s infinite;
+    animation: tada 5s infinite;
+    background-color: #92b4e0;
+    filter: alpha(opacity=80);
+    opacity:0.8;
+    z-index:99;
+}
+.WareContent .col-md-offset-2 #circle5{
+    display: inline-block;
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    position: absolute;
+    left:120px;
+    top:500px;
+    -webkit-animation: tada 5s infinite;
+    -moz-animation: tada 5s infinite;
+    animation: tada 5s infinite;
+    background-color: #92b4e0;
+    filter: alpha(opacity=80);
+    opacity:0.8;
+    z-index:99;
+}
+/*---------------------------------*/
+.WareContent{
+    background-color:rgb(240,240,240);
+}
+.WareContent .col-md-6{
+    height:100%;
+    background-color:rgb(240,240,240);
+
+}
+.col-lg-offset-2 img{
+    height:100%;
+}
+/*------第一图---------*/
+.detail1{
+    height:100%;
+    width:56%;
+    background:url("../img/fusiondetail1.jpg")no-repeat right center;
+    background-size:75%;
+    position:absolute;
+    right:-1075px;
+    background-color:rgb(240,240,240);
+    overflow: hidden;
+}
+
+.detail1 .rect{
+    width:20px;
+    height:100%;
+    transform:skew(-18deg,0deg);
+    background-color:#333;
+    left:16%;
+    position:absolute;
+
+}
+
+.detail1 .row{
+    width:50%;
+    height:13%;
+    position:absolute;
+    bottom:5%;
+    left:36%;
+}
+/*--------公用背景---------*/
+.bg{
+    background-color:rgba(244,244,244,0.8);
+}
+
+/*--------第二图--------*/
+.detail2{
+    height:100%;
+    width:56%;
+    background:url("../img/fusiondetail2.jpg")no-repeat right center;
+    background-size:70%;
+    position:absolute;
+    right:-1075px;
+    background-color:rgb(240,240,240);
+    background-position:left bottom;
+    overflow: hidden;
+}
+
+.detail2 .rect{
+    width:20px;
+    height:100%;
+    transform:skew(-18deg,0deg);
+    background-color:#333;
+    left:16%;
+    position:absolute;
+
+}
+.detail2 .row{
+    width:50%;
+    height:13%;
+    position:absolute;
+    bottom:5%;
+    left:36%;
+}
+
+/*-----------第三图----------*/
+.detail3{
+    height:98%;
+    width:56%;
+    background:url("../img/fusiondetail5.jpg")no-repeat right center;
+    background-size:80%;
+    position:absolute;
+    right:-1075px;
+    background-color:rgb(240,240,240);
+    overflow: hidden;
+}
+
+.detail3 .rect{
+    width:20px;
+    height:100%;
+    transform:skew(-18deg,0deg);
+    background-color:#333;
+    left:16%;
+    position:absolute;
+
+}
+.detail3 .row{
+    width:50%;
+    height:15%;
+    position:absolute;
+    bottom:5%;
+    left:36%;
+}
+
+
+/*------------第四图-------------*/
+.detail4{
+    height:98%;
+    width:56%;
+    background:url("../img/fusiondetail6.jpg")no-repeat right center;
+    background-size:80%;
+    position:absolute;
+    right:-1075px;
+    background-color:rgb(240,240,240);
+    overflow: hidden;
+}
+
+.detail4 .rect{
+    width:20px;
+    height:100%;
+    transform:skew(-18deg,0deg);
+    background-color:#333;
+    left:16%;
+    position:absolute;
+
+}
+.detail4 .row{
+    width:50%;
+    height:15%;
+    position:absolute;
+    bottom:5%;
+    left:36%;
+}
+
+/*------------第五图-------------*/
+.detail5{
+    height:98%;
+    width:56%;
+    background:url("../img/fusiondetail3.jpg")no-repeat right center;
+    background-size:80%;
+    position:absolute;
+    right:-1075px;
+    background-color:rgb(240,240,240);
+    overflow: hidden;
+}
+
+.detail5 .rect{
+    width:20px;
+    height:100%;
+    transform:skew(-18deg,0deg);
+    background-color:#333;
+    left:16%;
+    position:absolute;
+
+}
+.detail5 .row{
+    width:50%;
+    height:25%;
+    position:absolute;
+    bottom:10%;
+    left:36%;
+}
+
+.detail5 .row p{
+    margin: 0;
+    padding:0;
+}
+/*--------第二部分内容------*/
+.swiper-containerWare2 {
+    width: 100%;
+    height: 100%;
+    margin:0;
+    padding:0;
+}
+.swiper-containerWare2 .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    width:100%;
+    height:100%;
+    /*background: #fff;*/
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.WareContent2{
+    height:100%;
+    width:100%;
+    margin:0;
+    padding:0;
+}
+
+/*--------------1---------*/
+.ware1{
+    /*background:url("../img/fusiondetailxs0.jpg")no-repeat left center;*/
+    background-color:#fff;
+    height:100%;
+}
+.ware1 .row{
+    /*border:1px solid red;*/
+    height:100%;
+    width:100%;
+    margin:0;
+}
+.ware1 .row .WareRight{
+    /*border:1px solid blue;*/
+    width:50%;
+    margin:50% 0;
+}
+.ware1 .row img{
+    margin:50% 0;
+}
+.ware1 .row .WareRight h2{
+    font-size:20px;
+    font-weight:bold;
+}
+.ware1 .row .WareRight h3{
+    font-size:18px;
+    font-weight: bold;
+}
+
+
+/*--------------2---------*/
+.ware2{
+    background:#fff;
+    height:100%;
+}
+.ware2 img{
+    margin:0 auto;
+}
+.ware2 .row{
+    /*border:1px solid red;*/
+    height:100%;
+}
+.ware2 .row .Ware2Top{
+    margin:80px 0 0 0 ;
+}
+.ware2 .row .Ware2Top h2{
+    font-size:20px;
+    font-weight: bold;
+}
+.ware2 .row .Ware2Top p{
+    font-size:16px;
+}
+
+/*-----------------3-------------*/
+.ware3{
+    background:#fff;
+    height:100%;
+}
+.ware3 img{
+    margin:25% auto;
+}
+.ware3 .row{
+    /*border:1px solid red;*/
+    height:100%;
+}
+.ware3 .row .Ware3Top{
+    margin:140px 0 0 0 ;
+}
+.ware3 .row .Ware3Top h2{
+    font-size:20px;
+    font-weight: bold;
+}
+.ware3 .row .Ware3Top p{
+    font-size:16px;
+}
+
+/*-----------------4-------------*/
+.ware4{
+    background:#fff;
+    height:100%;
+}
+.ware4 img{
+    margin:25% auto 0;
+}
+.ware4 .row{
+    height:100%;
+}
+.ware4 .row .Ware4Top{
+    margin:-45% 0 0 0 ;
+}
+.ware4 .row .Ware4Top h2{
+    font-size:20px;
+    font-weight: bold;
+}
+.ware4 .row .Ware4Top p{
+    font-size:16px;
+}
+
+/*-----------------5-------------*/
+.ware5{
+    background:#fff;
+    height:100%;
+}
+.ware5 .row img{
+    margin:50% 0;
+}
+.ware5 .row .WareRight{
+    /*border:1px solid blue;*/
+    width:50%;
+    margin:30% 0;
+}
+.ware5 .row .WareRight h2{
+    font-size:20px;
+    font-weight:bold;
+}
+.ware5 .row .WareRight h3{
+    font-size:18px;
+    font-weight: bold;
+}
+/*-----------------6-------------*/
+.ware6{
+    background:#fff;
+    height:100%;
+}
+.ware6 img{
+    margin:0 auto;
+}
+.ware6 .row{
+    height:100%;
+}
+.ware6 .row .Ware6Top{
+    margin:-50% 0 0 0 ;
+}
+.ware6 .row .Ware6Top h2{
+    font-size:20px;
+    font-weight: bold;
+}
+.ware6 .row .Ware6Top p{
+    font-size:16px;
+}
+/*-----------------7-------------*/
+.ware7{
+    background:url("../img/fusiondetailxs6.jpg")no-repeat right center;
+    background-size:80%;
+    background-color:#fff;
+}
+.ware7 .row .col-xs-7{
+    width:30%;
+    height:50%;
+    background-color:rgba(255,255,255,0.7);
+    margin-top:40%;
+}
+.ware7 .row .col-xs-7 h2{
+    margin:10px 0 0 0;
+    font-size:20px;
+    font-weight:bold;
+}
+
+/*--------媒体查询-----*/
+@media screen and (max-width:960px) {
+    .swiper-containerWare{
+        display: none;
+    }
+    .swiper-containerWare2{
+        display:block;
+    }
+
+
+}
+
+@media screen and (min-width:960px){
+    .swiper-containerWare{
+        display:block;
+    }
+    .swiper-containerWare2{
+        display:none;
+    }
+}
+
+
+.footer{
+     position:fixed;
+     bottom:0;
+     width: 100%;
+     background-color:#000;
+ }

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width,
+          user-scalable=no,initial-scale=1.0,
+          maximum-scale=1.0,minimum-scale=1.0" />
+    <meta http-equiv="X-UA-COMPATIBLE" content="ie=dege"/>
+    <title>react</title>
+    <script src="../js/react.js"></script>
+    <script src="../js/react-dom.js"></script>
+    <script src="../js/browser.min.js"></script>
+    <style>
+        .console{
+            color:red;
+        }
+    </style>
+</head>
+<body>
+<div id="example"></div>
+
+
+<script type="text/babel">
+   var LinkButton = React.createClass({
+       getInitialState:function () {
+           return {value:'',linked:false};
+       },
+       handleClick:function (event) {
+           this.setState({liked:!this.state.liked});
+       },
+       handleClick1:function (event) {
+           this.setState({value:event.target.value});
+       },
+       render:function () {
+           var text = this.state.liked ? '喜欢':'不喜欢';
+           return(
+                   <div>
+                       <p onClick={this.handleClick}>
+                           你{text}这个。点击这。
+                       </p>
+                       <input onChange={this.handleClick1} type="text" value={this.state.value} />
+                       <div className="console">{this.state.value}</div>
+                   </div>
+           );
+       }
+   });
+    ReactDOM.render(
+            <LinkButton/>,
+            document.getElementById('example')
+    );
+</script>
+</body>
+</html>

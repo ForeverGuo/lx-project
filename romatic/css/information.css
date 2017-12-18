@@ -1,0 +1,48 @@
+
+/*内容第一部分---------*/
+.content{
+    width:994px;
+    height: 400px;
+    margin: 12px auto 0;
+    background-color:#fff;
+}
+.in{
+    width: 795px;
+    height: 26px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+.in_a{
+    width: 93px;
+    height: 26px;
+    line-height: 26px;
+    text-align: right;
+    float: left;
+    overflow: hidden;
+    color: #666666;
+}
+.in_b{
+    width: 202px;
+    height: 26px;
+    float: left;
+    overflow: hidden;
+    background: url(../images/mem2_05.gif) no-repeat;
+    color: #666666;
+}
+.in_b input{
+    width: 192px;
+    padding: 5px;
+    background: 0;
+    border: 0;
+}
+#sub{
+    width: 60px;
+    margin-left: 400px;
+    margin-top: 20px;
+    background-image: url(../images/images_19.gif);
+    border: 0px;
+    width: 64px;
+    height: 25px;
+}
+/*-------fixed--------*/
+

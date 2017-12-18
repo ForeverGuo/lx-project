@@ -1,0 +1,8 @@
+#myApp { position: absolute; }
+*{ margin: 0; padding: 0; box-sizing: border-box; list-style: none}
+html,body,.page,#myApp { height: 100%; overflow: hidden}
+.header, .page, .content, .footer,#myApp { position: absolute; left: 0; width: 100%; top: 0;}
+.header, .footer { text-align: center; height: 50px; line-height: 50px; background-color: #999; color: #fff;}
+.footer { top: auto; bottom: 0;}
+.footer li { float: left; width: 50%;}
+.content { top: 50px; bottom: 50px; padding: 10px;}

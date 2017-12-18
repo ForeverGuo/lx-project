@@ -1,0 +1,193 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: "微软雅黑";
+}
+html,body{
+	position: relative;
+	height: 100%;
+}
+.main{
+	width: 100%;
+	min-width: 1200px;
+	/*height: 900px;*/
+	height: 100%;
+	background-image: url(../img/backbg.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	position: relative;
+}
+.main-back{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: black;
+	opacity: 0.7;
+}
+.main-info{
+	width: 84%;
+	margin: 0 auto;
+	padding-top: 7%;
+	position: relative;
+}
+.room{
+	float: left;
+	width: 60%;
+}
+.room .bike{
+	font-size: 44px;
+	font-weight: normal;
+	color: white;
+	vertical-align: middle;
+	line-height: 90px;
+}
+.room .bike img{
+	width: 90px;
+	height: 90px;
+	vertical-align: middle;
+	margin-right: 20px;
+}
+.room .pig{
+	text-align: right;
+	margin: 6% 0;
+}
+h3{
+	display: block;
+	font-size: 1.17em;
+	-webkit-margin-before: 1em;
+	-webkit-margin-after: 1em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	font-weight: bold;
+}
+.room .pig img{
+	width:76% ;
+}
+.download{
+	max-width: 360px;
+    width: 36%;
+	position: absolute;
+	/*bottom: -4em;*/
+	margin-top: 25px;
+    /*border: 1px solid red;*/
+}
+.right1{
+	float: left;
+}
+.mide{
+	width: 43%;
+}
+.mide img{
+	width: 95%;
+}
+.hello{
+	position: relative;
+	width: 53%;
+	font-size: 20px;
+	margin-left: 3%;
+}
+.btn{
+	font-weight: normal;
+	color: #45d1c8;
+	height: 57px;
+	line-height: 57px;
+	text-align: center;
+	border: 2px solid #45D1C8;
+	border-radius: 5px;
+	/*transition: color 0.5s,background-color 0.5s;
+	-moz-transition:  color 0.5s,background-color 0.5s;
+	-webkit-transition:  color 0.5s,background-color 0.5s;
+	-moz-transition:  color 0.5s,background-color 0.5s;*/
+	 
+}
+.btn:hover{
+	background-color: #45D1C8;
+	color: white;
+}
+.btn-iphone{
+	margin-top: 24px;
+}
+.clear-both{
+	clear: both;
+}
+ a {
+	text-decoration: none;
+}
+.history{
+	color: white;
+	line-height: 3em;
+	font-size: 16px;
+}
+.history p{
+	text-align: right;
+}
+.inline-block{
+	display: inline-block;
+	width: 43%;
+}
+.history  a {
+	display: inline-block;
+	width: 22%;
+	margin-left: 5px;
+	color: #45D1C8;
+}
+.main-right{
+	width: 40%;
+	float: right;
+	text-align: right;
+}
+.main-right img{
+	width: 84%;
+}
+.box{
+	width: 100%;
+	height: 160px;
+	position: fixed;
+/*	border: 1px solid red;*/
+	background: #555;
+	/*bottom: -200px;*/
+	box-shadow: 0 0 20px 0px #222;
+	bottom: -140px;
+}
+.btnz{
+	width: 30px;
+	height: 30px;
+	border-radius: 4px;
+	background: black;
+	
+	border: none;
+	color: white;
+	margin-right: 10px;
+	margin-top: 10px;
+	font-size: 18px;
+	position: absolute;
+	right: 0px;
+}
+.suport{
+	width: 84%;
+	height: 120px;
+	margin: 0 auto;
+	min-width: 1000px;
+	margin-top: 30px;
+}
+.suport-li{
+	float: left;
+	width: 20%;
+	color: white;
+}
+.suport-title{
+	font-weight: normal;
+	font-size: 18px;
+	color: white;
+	margin-bottom: 15px;
+}
+.suport-desc li{
+	line-height: 1.7em;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+	color:#ddd;
+}

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport"
+          content="width=device-width,
+          user-scalable=no,initial-scale=1.0,
+          maximum-scale=1.0,minimum-scale=1.0" />
+    <meta http-equiv="X-UA-COMPATIBLE" content="ie=dege" />
+    <title>登录land</title>
+    <link rel="stylesheet" href="../css/animate.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/swiper.min.css">
+    <link rel="stylesheet" href="../css/iconfont.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/land.css">
+
+</head>
+<body>
+<!------头部开始------>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <a href="#" class="navbar-brand logo"></a>
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse" id="navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="../home.html"><span>&nbsp;首页</span></a>
+                </li>
+                <li id="chanpin">
+                    <a href="javascript:;" class="block"><span>&nbsp;产品</span></a>
+                    <div class="container-watch">
+                        <div class="swiper-container swiper-container1">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide ani" swiper-animate-effect="swiperInLeft" swipe-animate-duration="0.5s" swiper-animate-delay="1s">
+                                    <a href="color.html"><img src="../img/color.png" alt="Color" title="Color"></a>
+                                </div>
+                                <div class="swiper-slide ani" swiper-animate-effect="swiperInLeft" swipe-animate-duration="0.5s" swiper-animate-delay="1s">
+                                    <a href="fusion.html"><img src="../img/fusion.png" alt="Fusion"></a>
+                                </div>
+                                <div class="swiper-slide ani" swiper-animate-effect="swiperInRight" swipe-animate-duration="0.5s" swiper-animate-delay="1s">
+                                    <a href="javascript:;"><img src="../img/her.png" alt="Her"></a>
+                                </div>
+                                <div class="swiper-slide ani" swiper-animate-effect="swiperInRight" swipe-animate-duration="0.5s" swiper-animate-delay="1s">
+                                    <a href="javascript:;"><img src="../img/z.png" alt="23G"></a>
+                                </div>
+                                <div class="swiper-slide ani" swiper-animate-effect="swiperInRight" swipe-animate-duration="0.5s" swiper-animate-delay="1s">
+                                    <a href="young.html"><img src="../img/young.png" alt="Young"></a>
+                                </div>
+                                <div class="swiper-slide ani" swiper-animate-effect="swiperInRight" swipe-animate-duration="0.5s" swiper-animate-delay="1s">
+                                    <a href="inwatcht.html"><img src="../img/t.png" alt="InWatch IT"></a>
+                                </div>
+                                <div class="swiper-slide ani" swiper-animate-effect="swiperInRight" swipe-animate-duration="0.5s" swiper-animate-delay="1s">
+                                    <a href="battery.html"><img src="../img/π.png" alt="Pi"></a>
+                                </div>
+                                <div class="swiper-slide ani" swiper-animate-effect="swiperInRight" swipe-animate-duration="0.5s" swiper-animate-delay="0.3s">
+                                    <a href="run.html"><img src="../img/run.png" alt="Run"></a>
+                                </div>
+                            </div>
+
+                            <div class="swiper-button-prev swiper-button-white"></div>
+                            <div class="swiper-button-next swiper-button-white"></div>
+                        </div>
+                        <p class="pLeft"></p>
+                        <p class="pRight"></p>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="javascript:;" data-toggle="dropdown">
+                        &nbsp;软件服务
+                        <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu navbar-inverse navbar-right">
+                        <li>
+                            <a href="javascript:;">inHealth软件下载</a>
+                            <a href="javascript:;">smart run软件下载</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="yun.html"><span>&nbsp;inCloud健康云</span></a>
+                </li>
+                <li>
+                    <a href="register.html"><span>&nbsp;登录/注册</span></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="blank"></div>
+</nav>
+
+<!-------------内容------------>
+<div class="register">
+    <div class="content">
+        <h3>用户登录</h3>
+        <div class="input">
+            <span id="cc">用户名</span>
+            <input type="text" placeholder="用户名" name="user.username"  onblur="return checkname();" id="uName"/>
+        </div>
+        <div id="namets"></div>
+        <div class="input">
+            <span id="cc2">密码</span>
+            <input type="password" placeholder="密码" name="user.password"  onblur="return checkpass();" id="uPass"/>
+        </div>
+        <div id="passts"></div>
+        <div class="out">
+            <div class="list2">
+                <span>验证码：</span><input type="text" id="ma" onblur="return checkWord();"   placeholder="验证码" />
+                <div id="ma1-img"></div>
+                <div id="maTip" class="Tip"></div>
+            </div>
+            <div class="list3">
+                <input type="checkbox" name="">记住登陆状态
+                <a href="javascript:;">找回密码</a>
+            </div>
+            <button id="sumbit" onclick="land()">登陆</button>
+        </div>
+    </div>
+</div>
+
+<script src="../js/jquery-1.10.1.js"></script>
+<script src="../js/bootstrap.js"></script>
+<script src="../js/header.js"></script>
+<script src="../js/land.js"></script>
+<script src="../js/pub.js"></script>
+</body>
+</html>

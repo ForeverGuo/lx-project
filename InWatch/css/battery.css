@@ -1,0 +1,380 @@
+*{
+	margin:0;
+	padding:0;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif,"微软雅黑";
+}
+b,strong,h1,h2,h3,h4,h5,h6{
+	font-weight:normal;
+}
+i{
+	font-style:normal;
+}
+a,s{
+	text-decoration: none;
+	font-family: "open_sansregular",Arial,Helvetica,"Times New Roman","Microsoft YaHei","微软雅黑",STXihei,"华文细黑",sans-serif;
+	font-size: 14px;
+}
+ul li{
+	list-style:none;
+}
+img{
+	margin:0;
+	padding:0;
+}
+#backimg{
+	position: relative;
+	width: 100%;
+	height: 820px;
+	background-image: url(../img/panel21_bg.jpeg);
+	background-color: #000000
+
+}
+.shen_lin{
+	position: absolute;
+	height: 500px;
+	background: rgba(34,34,34,.7);
+	right: 15%;
+	bottom: 5%;
+	border-radius: 8px;
+	padding-top: 10px;
+}
+.welcome{
+	width: 100%;
+	display: inline-block;
+	font-size: 1.2em;
+	background: rgba(34,34,34,.7);
+	border-radius: 8px;
+	padding: .8em;
+	color: #DDD;
+}
+#sp{
+	font-size: 1.4em;
+	line-height: 0;
+	color: #DDD;
+	padding-left: .1em;
+	padding-right: .1em;
+}
+#nichen{
+	display: inline-block;
+	padding-left: 43px;
+	font-weight: 700;
+	color: #ddd;
+	padding-right: 30px;
+	font-size: 16px;
+}
+#number{
+	display: inline-block;
+	width: 350px;
+	height: 34px;
+	border-radius: 4px;
+	border: none;
+	padding-left: 10px;
+	color: #555;
+}
+.threeplace{
+	color: #ddd;
+	font-size: 14px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	padding-left: 5px;
+}
+#Pi{
+	display: inline-block;
+	padding-left: 86px;
+	font-weight: 700;
+	color: #ddd;
+	padding-right: 30px;
+	font-size: 16px;
+}
+#xulie{
+	display: inline-block;
+	width: 350px;
+	height: 34px;
+	border-radius: 4px;
+	border: none;
+	padding-left: 10px;
+	margin-left: 10px;
+	color: #555;
+}
+#usetime{
+	display:block;
+	font-weight: 700;
+	color: #DDD;
+	padding-left: 86px;
+	padding-top: 20px;
+	font-size: 16px;
+}
+.hasno{
+	font-weight: normal;
+	padding-left: 55px;
+}
+#activetly{
+	display: block;
+	font-weight: 700;
+	color: #ddd;
+	padding-left: 102px;
+	padding-top: 20px;
+	font-size: 16px;
+}
+.hasno1{
+	font-weight: normal;
+	padding-left: 55px;
+}
+.query{
+	display: block;
+	background-color: #FFF;
+	border: none;
+	padding: 5px;
+	border-radius: 4px;
+	padding-left: 8px;
+	padding-right: 8px;
+	margin-top: 20px;
+	margin-left: 204px;
+	margin-bottom: 40px;
+}
+.sljl{
+	width: 100%;
+	display: inline-block;
+	font-size:1.2em ;
+	background: rgba(34,34,34,.7);
+	border-radius: 8px;
+	padding: .8em;
+	color: #DDD;
+}
+#zhuangt{
+	color: #DDD;
+	font-weight: 700;
+}
+#zhuangt>li{
+	width: 9.5%;
+	padding-top: 20px;
+	float: left;
+	border-bottom: 2px solid #DDD;
+
+}
+@media only screen and (max-width: 1000px) {
+	#backimg{
+		position: relative;
+		width: 100%;
+		background: url(../img/panel21_bgxs.jpeg) no-repeat;
+		background-size: 100%;
+		background-color: black;
+	}
+	.shen_lin{
+		position: absolute;
+		width: 100%;
+		height: 500px;
+		background: rgba(34,34,34,.7);
+		right: 0;
+		bottom: 5%;
+		border-radius: 8px;
+		padding-top: 10px;
+	}
+}
+@media only screen and (max-width:500px){
+
+	.welcome{
+		width: 100%;
+		display: inline-block;
+		font-size: 0.8em;
+		background: rgba(34,34,34,.7);
+		border-radius: 8px;
+		padding: .8em;
+		color: #DDD;
+	}
+	#nichen{
+		display: inline-block;
+		padding-left: 0;
+		font-weight: 700;
+		font-size: 0.8em;
+		color: #ddd;
+		padding-right: 30px;
+	}
+	#number{
+		display: inline-block;
+		width: 100%;
+		height: 34px;
+		border-radius: 4px;
+		border: none;
+		padding-left: 10px;
+		color: #555;
+	}
+	.threeplace{
+		color: #ddd;
+		font-size: 0.8em;
+		padding-top: 12px;
+		padding-bottom: 12px;
+		padding-left: 5px;
+	}
+	#Pi{
+		display: inline-block;
+		font-size: 0.8em;
+		font-weight: 700;
+		color: #DDD;
+		padding-left: 5px;
+	}
+	#xulie{
+		display: inline-block;
+		width: 100%;
+		height: 34px;
+		border-radius: 4px;
+		border:none;
+		padding-left: 10px;
+		color: #555;
+		margin-left: 2px;
+	}
+	#usetime{
+		display: block;
+		color: #ddd;
+		font-weight: 700;
+		padding-left: 0;
+		padding-top: 20px;
+	}
+	.hasno{
+		color: #DDD;
+		font-weight: 700;
+		padding-left: 5px;
+		padding-top: 20px;
+	}
+	#activetly{
+		display: block;
+		color: #ddd;
+		font-weight: 700;
+		padding-left: 0;
+		padding-top: 20px;
+	}
+	.hasno1{
+		color: #ddd;
+		font-weight: 700;
+		padding-left: 5px;
+		padding-top: 20px;
+	}
+	.query{
+		display: block;
+		background-color: #FFF;
+		border: none;
+		padding: 5px;
+		border-radius: 4px;
+		padding-left: 8px;
+		padding-right: 8px;
+		margin-top: 20px;
+		margin-left:0;
+		margin-bottom: 40px;
+	}
+	.sljl{
+		width: 100%;
+		display: inline-block;
+		font-size:0.8em ;
+		background: rgba(34,34,34,.7);
+		border-radius: 8px;
+		padding: .8em;
+		color: #DDD;
+	}
+	#zhuangt{
+		color: #DDD;
+		font-weight: 700;
+		width: 900px;
+	}
+	#zhuangt>li{
+		padding-top: 20px;
+		float: left;
+		border-bottom:none;
+	}
+	.hid{
+		width: 100%;
+		height: 60px;
+		border: 1px solid #FFF;
+		overflow: auto;
+	}
+}
+
+
+@media (min-width:1200px){
+	.container .snap{
+		width: 1270px;
+	}
+	p{
+		font-size: 16px;
+		text-indent: 30px;}
+}
+@media (min-width:992px){
+	.container .snap{
+		width: 970px;
+	}
+	ol li{
+		font-size: 16px;
+		line-height: 25px;
+		font-weight:bold;
+	}
+
+}
+
+@media (min-width:768px) {
+	.container .snap{
+		width: 750px;
+	}
+}
+@media (min-width:1200px){
+	.containerz{
+		width: 1050px;
+		margin: auto;
+	}
+}
+.container2{
+	background-color:#000;
+	height:360px;
+	width:100%;
+	margin:0 !important;
+	padding:0;
+}
+.foot-left{
+	margin:0;
+	padding-top:40px;
+}
+.foot-left h2{
+	font-size:18px;
+	color:#AAA;
+}
+.foot-left li{
+	list-style:none;
+}
+.foot-left li a{
+	color:#888;
+	font-size:13px;
+}
+.foot-left li a:hover{
+	text-decoration: none;
+	color:#AAA;
+}
+.foot-right{
+	margin:0;
+	text-align:center;
+	padding-top:50px;
+}
+.glyphicon-earphone{
+	font-size:30px;
+	color:#AAA;
+}
+.phone{
+	color:#AAA;
+	font-size:30px;
+}
+.time{
+	color:#888;
+	font-size:14px;
+}
+.final-foot{
+	text-align: center;
+	margin-top:70px;
+	font-size:14px;
+	color:#888;
+}
+.modal-content{
+	width: 490px;
+	height: 518px;
+}
+
+#panel21 .txt{padding: 7px 0px;font-size: 14px;background: none;border-radius: 0px;margin-bottom: auto;}
+
+
+

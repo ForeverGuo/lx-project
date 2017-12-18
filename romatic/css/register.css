@@ -1,0 +1,51 @@
+
+/*内容第一部分---------*/
+.content{
+  width:998px;
+  height:500px;
+  margin: 12px auto 0;
+  background-color:#fff;
+}
+.content .position{
+  margin:30px 0 0 30px;
+  width:160px;
+  display: inline-block;
+  font-size:12px;
+  text-align: center;
+}
+.content .position a{
+  color:#000;
+  text-decoration: none;
+}
+.list_card{
+  height:200px;
+  width:950px;
+  margin:100px 0 0 30px;
+}
+.list_card ul li{
+  list-style: none;
+  float:left;
+  width:450px;
+}
+.list_card a{
+  display: inline-block;
+  float:left;
+}
+.list_card .card_content{
+  float: right;
+  width:210px;
+  height:200px;
+}
+.card_content h2{
+  font-size:23px;
+  color:#383838;
+}
+.card_content p{
+  color:#666;
+  font-size:14px;
+  text-indent:20px;
+}
+.card_content .btn{
+  margin-top:100px;
+}
+

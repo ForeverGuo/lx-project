@@ -1,0 +1,31 @@
+
+/*内容第一部分---------*/
+.content{
+    width:998px;
+    height: 440px;
+    margin: 12px auto 0;
+    background-color:#fff;
+}
+.title{
+    padding-top:20px;
+
+}
+.hotel{
+    width:600px;
+    height:60px;
+    margin:28px 0 0 18px;
+
+}
+.hotel a{
+    display:inline-block;
+    float:left;
+}
+.txt{
+    float:left;
+    margin-left:20px;
+    color:#000;
+}
+
+
+/*-------fixed--------*/
+

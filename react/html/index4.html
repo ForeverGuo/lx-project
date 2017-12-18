@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width,
+          user-scalable=no,initial-scale=1.0,
+          maximum-scale=1.0,minimum-scale=1.0" />
+    <meta http-equiv="X-UA-COMPATIBLE" content="ie=dege"/>
+    <title>react</title>
+    <script src="../js/react.js"></script>
+    <script src="../js/react-dom.js"></script>
+    <script src="../js/browser.min.js"></script>
+</head>
+<body>
+<div id="app"></div>
+
+
+<script type="text/babel">
+    var Box = React.createClass({
+        render:function () {
+            return(
+                    <ol>
+                        {
+                            React.Children.map(this.props.children,function(child){
+                                return <li>{child}</li>
+                            })
+                        }
+                    </ol>
+            );
+
+
+        }
+    });
+    ReactDOM.render(
+            <Box>
+
+                <span>first</span>
+                <span>first!!</span>
+
+            </Box>,document.getElementById('app')
+    );
+</script>
+</body>
+</html>

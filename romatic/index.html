@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>
+  漫步人生-免费网络图书馆
+  (全国最大免费网上借阅实体书网站,实现读者一切可能
+  </title>
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/public.css">
+</head>
+<body onclick="gg()">
+<div class="header">
+  <div class="header-title">
+      <div class="title-b">
+          <div class="b-left">
+                 <ul>
+                   <li>欢迎来到漫步人生！</li>
+                   <li><a href="http://www.weibo.com">
+                        <img src="images/wb.png" class="l-img" alt="">
+                   </a></li>
+                   <li>
+                        <img src="images/m1.png" class="l-img" id="left-t" alt="">
+                   </li>
+                 </ul>
+          </div>
+          <div class="b-right">
+                <ul>
+                  <li class="r-o"><a href="#">
+                    提醒
+                  </a></li>
+                  <li><a href="#">
+                    还书
+                  </a></li>
+                  <li><a href="#">
+                    借阅车
+                  </a></li>
+                  <li><a href="#">
+                    我的借阅卡
+                  </a></li>
+                  <li><a href="#">
+                    我的书房
+                  </a></li>
+                  <li class="r-li">
+                      <div class="r-logo">
+                        <div class="r-zhu">
+                          <a href="TPL/register.html">
+                            <img src="images/regis.png" alt="">
+                          </a>
+                        </div>
+                        <div class="r-deng">
+                          <a href="#">
+                            <img src="images/log.png" alt="">
+                          </a>
+                        </div>
+                      </div>
+                  </li>
+                </ul>
+          </div>
+      </div>
+  </div>
+  <div class="header-body">
+    <div class="body-m">
+      <div class="m-left">
+        <a href="#">
+          <img src="images/logo.gif" alt="">
+        </a>
+      </div>
+      <div class="gif">
+          <div class="gif-o">
+            <img src="images/mif.png" alt="">
+          </div>
+          <div class="gif-t">
+              <img src="images/mif2.png" alt="">
+          </div>
+      </div>
+    </div>
+    <div class="body-b">
+        <div class="b-right"></div>
+        <div class="b-li">
+            <ul>
+              <li id="b-li-o" onclick="gif()" style="background:url(images/b9.png)no-repeat center"><a href="index.html">首页</a></li>
+              <li><a href="TPL/library.html">图书</a></li>
+              <li id="b-li-t"><a href="TPL/society.html">社会馆</a></li>
+              <li><a href="TPL/information.html">资源检索</a></li>
+              <li id="b-li-r"><a href="TPL/lotus.html">莲花风采</a></li>
+              <li><a href="javascript:;">点书台</a></li>
+              <li id="b-li-f"><a href="javascript:;">帮助中心</a></li>
+              <li><a href="javascript:;">论坛</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- 触发事件（mouseover） -->
+    <div class="yinCang">
+        <div class="s-h-g" id="shg">
+            <p class="bug"></p>
+            <ul>
+              <li><a href="TPL/society1.html">企业馆</a></li>
+              <li><a href="TPL/society2.html">校园馆</a></li>
+              <li><a href="TPL/society1.html">幼园馆</a></li>
+              <li><a href="TPL/society3.html">书天馆</a></li>
+            </ul>
+        </div>
+        <div class="l-h-f" id="lhf">
+            <p class="bug"></p>
+            <ul>
+              <li><a href="TPL/lotus.html">公司简介</a></li>
+              <li><a href="TPL/lotus1.html">发展历程</a></li>
+              <li><a href="TPL/lotus2.html">员工故事</a></li>
+              <li><a href="TPL/lotus3.html">招纳贤士</a></li>
+              <li><a href="#">网站地图</a></li>
+              <li><a href="#">莲花厅</a></li>
+            </ul>
+        </div>
+        <div class="b-z-z" id="bzz">
+            <p class="bug"></p>
+            <ul>
+              <li><a href="#">新手上路</a></li>
+              <li><a href="#">读书指南</a></li>
+              <li><a href="#">读者指南</a></li>
+              <li><a href="#">物流配送</a></li>
+              <li><a href="#">网站地图</a></li>
+            </ul>
+        </div>
+    </div>
+  </div>
+</div>
+<!--内容第一部分  -->
+<div class="content">
+<!-- 左半部的内容 -->
+  <div class="content-l">
+      <div class="content-l-logo">
+          <img src="images/s1.jpg" alt="">
+      </div>
+      <div id="title0" onclick="add(0)" class="content-l-title" style="background:url('images/s2.png') no-repeat;">
+            <div class="content-l-font">文艺</div>
+            <div class="content-l-new"></div>
+      </div>
+      <div id="list0" class="content-l-list">
+        <ul>
+          <li><a href="javascript:;">文学</a></li>
+          <li><a href="javascript:;">艺术</a></li>
+          <li><a href="javascript:;">传记</a></li>
+          <li><a href="javascript:;">小说</a></li>
+          <li><a href="javascript:;">少儿</a></li>
+          <li><a href="javascript:;">青春</a></li>
+        </ul>
+      </div>
+      <div id="title1" onclick="add(1)" class="content-l-title" style="background:url('images/s2.png') no-repeat;">
+            <div class="content-l-font">经管</div>
+            <div class="content-l-new"></div>
+      </div>
+      <div id="list1" class="content-l-list">
+        <ul>
+          <li><a href="javascript:;">经济</a></li>
+          <li><a href="javascript:;">管理</a></li>
+          <li><a href="javascript:;">励志成功</a></li>
+        </ul>
+      </div>
+      <div id="title2" onclick="add(2)" class="content-l-title" style="background:url('images/s2.png') no-repeat;">
+            <div class="content-l-font">人文</div>
+            <div class="content-l-new"></div>
+      </div>
+      <div id="list2" class="content-l-list">
+        <ul>
+          <li><a href="javascript:;">历史</a></li>
+          <li><a href="javascript:;">古籍</a></li>
+          <li><a href="javascript:;">文化</a></li>
+        </ul>
+      </div>
+      <div id="title3" onclick="add(3)" class="content-l-title" style="background:url('images/s2.png') no-repeat;">
+            <div class="content-l-font">社科</div>
+            <div class="content-l-new"></div>
+      </div>
+      <div id="list3" class="content-l-list">
+        <ul>
+          <li><a href="javascript:;">社会科学</a></li>
+          <li><a href="javascript:;">心理学</a></li>
+          <li><a href="javascript:;">哲学宗教</a></li>
+          <li><a href="javascript:;">政治军事</a></li>
+          <li><a href="javascript:;">法律</a></li>
+        </ul>
+      </div>
+      <div id="title4" onclick="add(4)" class="content-l-title" style="background:url('images/s2.png') no-repeat;">
+            <div class="content-l-font">生活</div>
+            <div class="content-l-new"></div>
+      </div>
+      <div id="list4" class="content-l-list">
+        <ul>
+          <li><a href="javascript:;">孕期/育儿</a></li>
+          <li><a href="javascript:;">亲子家教</a></li>
+          <li><a href="javascript:;">两性</a></li>
+          <li><a href="javascript:;">保健运动</a></li>
+          <li><a href="javascript:;">美食休闲</a></li>
+          <li><a href="javascript:;">美妆</a></li>
+          <li><a href="javascript:;">旅行</a></li>
+          <li><a href="javascript:;">家庭家居</a></li>
+          <li><a href="javascript:;">风水占卜</a></li>
+          <li><a href="javascript:;">手工DIY</a></li>
+        </ul>
+      </div>
+      <div id="title5" onclick="add(5)" class="content-l-title" style="background:url('images/s2.png') no-repeat;">
+            <div class="content-l-font">科技</div>
+            <div class="content-l-new"></div>
+      </div>
+      <div id="list5" class="content-l-list">
+        <ul>
+          <li><a href="javascript:;">科普</a></li>
+          <li><a href="javascript:;">建筑</a></li>
+          <li><a href="javascript:;">医学</a></li>
+          <li><a href="javascript:;">计算机</a></li>
+          <li><a href="javascript:;">农林</a></li>
+          <li><a href="javascript:;">自然科学</a></li>
+          <li><a href="javascript:;">工业</a></li>
+          <li><a href="javascript:;">通信</a></li>
+        </ul>
+      </div>
+      <div id="title6" onclick="add(6)" class="content-l-title" style="background:url('images/s2.png') no-repeat;">
+            <div class="content-l-font">教育</div>
+            <div class="content-l-new"></div>
+      </div>
+      <div id="list6" class="content-l-list">
+        <ul>
+          <li><a href="javascript:;">外语</a></li>
+          <li><a href="javascript:;">考试</a></li>
+          <li><a href="javascript:;">教材</a></li>
+          <li><a href="javascript:;">中小学教辅</a></li>
+          <li><a href="javascript:;">各级教育</a></li>
+        </ul>
+      </div>
+      <div id="title7" onclick="add(7)" class="content-l-title" style="background:url('images/s2.png') no-repeat;">
+            <div class="content-l-font">工具书</div>
+            <div class="content-l-new"></div>
+      </div>
+      <div id="list7" class="content-l-list">
+        <ul>
+          <li><a href="javascript:;">语言类</a></li>
+          <li><a href="javascript:;">百科/年鉴</a></li>
+          <li><a href="javascript:;">文学鉴赏</a></li>
+        </ul>
+      </div>
+      <div id="title8" onclick="add(8)" class="content-l-title" style="background:url('images/s2.png') no-repeat;">
+            <div class="content-l-font">进口图书/港台图书</div>
+            <div class="content-l-new"></div>
+      </div>
+      <div id="list8" class="content-l-list">
+        <ul>
+          <li><a href="javascript:;">港台图书</a></li>
+          <li><a href="javascript:;">儿童读物</a></li>
+          <li><a href="javascript:;">工具书</a></li>
+        </ul>
+      </div>
+      <div id="title9" onclick="add(9)" class="content-l-title" style="background:url('images/s2.png') no-repeat;">
+            <div class="content-l-font">礼品册</div>
+            <div class="content-l-new"></div>
+      </div>
+      <div id="list9" class="content-l-list">
+        <ul>
+          <li><a href="#">2017端午礼册</a></li>
+          <li><a href="#">2017中秋礼册</a></li>
+        </ul>
+      </div>
+      <div id="title10" onclick="add(10)" class="content-l-title" style="background:url('images/s2.png') no-repeat;">
+            <div class="content-l-font">投票</div>
+            <div class="content-l-new"></div>
+      </div>
+      <div id="title11" onclick="add(11)" class="content-l-title" style="background:url('images/s2.png') no-repeat;">
+            <div class="content-l-font">礼品</div>
+            <div class="content-l-new"></div>
+      </div>
+      <div id="list11" class="content-l-list">
+        <ul>
+          <li><a href="#">月球车系列</a></li>
+        </ul>
+      </div>
+      <div id="title12" onclick="add(12)" class="content-l-title" style="background:url('images/s2.png') no-repeat;">
+            <div class="content-l-font">其他</div>
+            <div class="content-l-new"></div>
+      </div>
+      <div id="title13" onclick="add(13)" class="content-l-title" style="background:url('images/s2.png') no-repeat;">
+            <div class="content-l-font">--无--</div>
+            <div class="content-l-new"></div>
+      </div>
+  </div>
+  <div class="content-r">
+      <div class="dropdown" >
+          <span id="sele" class="">书名</span>
+          <ul id="where">
+            <li><a id="w1" onclick="show(1)" href="#">书名</a></li>
+            <li><a id="w2" onclick="show(2)" href="#">作者</a></li>
+            <li><a id="w3" onclick="show(3)" href="#">出版社</a></li>
+            <li><a id="w4" onclick="show(4)" href="#">isbn</a></li>
+          </ul>
+      </div>
+      <div class="soso">
+          <input id="s-input1" type="text" onclick="soso()" value="搜索关键词" />
+          <input id="s-input2" type="submit" value="" />
+          <div class="clear"></div>
+      </div>
+      <div class="sosuo">
+          <h4>热门搜索：</h4>
+          <ul>
+            <li><a href="#">三国志</a></li>
+            <li><a href="#">全世界人民都知道</a></li>
+            <li onclick="lun()"><a href="#">看见</a></li>
+          </ul>
+      </div>
+      <div style="clear:both;"></div>
+      <div class="lun">
+        <div class="lun-bo" id="bbbb">
+          <img style="display: block;" src="images/lun1.jpg" alt="">
+          <img src="images/lun2.jpg" alt="">
+          <img src="images/lun3.jpg" alt="">
+          <img src="images/lun4.jpg" alt="">
+          <img src="images/lun5.jpg" alt="">
+          <img src="images/lun6.jpg" alt="">
+          <img src="images/lun7.jpg" alt="">
+          <img src="images/lun8.jpg" alt="">
+          <div class="lun-list">
+            <ul>
+              <li id="lun1" onmouseover="stop(1)" onmouseout="start()">1</li>
+              <li id="lun2" onmouseover="stop(2)" onmouseout="start()">2</li>
+              <li id="lun3" onmouseover="stop(3)" onmouseout="start()">3</li>
+              <li id="lun4" onmouseover="stop(4)" onmouseout="start()">4</li>
+              <li id="lun5" onmouseover="stop(5)" onmouseout="start()">5</li>
+              <li id="lun6" onmouseover="stop(6)" onmouseout="start()">6</li>
+              <li id="lun7" onmouseover="stop(7)" onmouseout="start()">7</li>
+              <li id="lun8" onmouseover="stop(8)" onmouseout="start()">8</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="gGao">
+        <div class="g-content">
+          <ul>
+            <li><a href="#">关于暂停深圳以外会员的书</a></li>
+            <li><a href="#">漫步人生端午节放假通知</a></li>
+            <li><a href="#">漫步人生五一劳动节放假通知</a></li>
+            <li><a href="#">漫步人生启动校园馆绘本公告</a></li>
+            <li><a href="#">春节放假通知</a></li>
+            <li><a href="#">国庆放假暂停配送通知</a></li>
+          </ul>
+        </div>
+        <div class="gd">
+            <a href="#">更多>></a>
+        </div>
+      </div>
+      <div style="clear: both;"></div>
+      <div class="r_content">
+          <div class="r_content_l">
+              <h3>漫步人生是什么？</h3>
+              <p>漫步人生是一家网络图书馆。网站50%的藏</p>
+              <p>书来自会员和爱心人士的捐赠，会员可终身享</p>
+              <div id="p1">
+                <ul>
+                <li>受免费借阅、送、还书服务，以及荐书、捐</li>
+                <li>书、点书、评书、购书等，实现读者一切可</li>
+                <li>能。</li>
+                <li>微微书香，为每一颗求知心实现免费阅读机会</li>
+                </ul>
+              </div>
+          </div>
+          <div class="r_content_r">
+              <h3>常见问题</h3>
+              <div id="p2">
+                <ul>
+                  <li><a href="javascript:;">对一些常见问题的解答</a></li>
+                  <li><a href="javascript:;">关于上网礼节-Netiquette</a></li>
+                  <li><a href="javascript:;">名人书单——30年30本书</a></li>
+                  <li><a href="javascript:;">微微书香为什么提倡多读纸质书？</a></li>
+                </ul>
+              </div>
+          </div>
+      </div>
+      <div class="love">
+        <div class="love_g">
+          <ul class="love_g_list">
+          </ul>
+        </div>
+      </div>
+      <div style="clear:both;"></div>
+      <div class="newBook">
+          <h3>新书上架</h3>
+          <p>More</p>
+      </div>
+      <div class="bookContent">
+          <ul>
+              <li><a href="">
+                 <img src="img/new1.png" alt="" />
+              </a></li>
+              <li><a href="">
+                <img src="img/new2.png" alt="" />
+              </a></li>
+              <li><a href="">
+                 <img src="img/new3.png" alt="" />
+              </a></li>
+              <li><a href="">
+                <img src="img/new4.png" alt="" />
+              </a></li>
+              <li><a href="">
+                 <img src="img/new5.png" alt="" />
+              </a></li>
+              <li><a href="">
+                <img src="img/new6.jpg" alt="" />
+              </a></li>
+              <li><a href="">
+                 <img src="img/new7.png" alt="" />
+              </a></li>
+              <li><a href="">
+                <img src="img/new8.png" alt="" />
+              </a></li>
+              <li><a href="">
+                 <img src="img/new9.png" alt="" />
+              </a></li>
+              <li><a href="">
+                <img src="img/new10.png" alt="" />
+              </a></li>
+          </ul>
+      </div>
+  </div>
+<!-- 内容第二部分 -->
+  <div style="clear:both;"></div>
+  <div class="content_t_left">
+    <div class="lend_read">
+        <h3>借阅榜</h3>
+        <p></p>
+    </div>
+    <div class="read_content">
+      <ul>
+        <li><a style="color:rgb(52, 113, 176);" href="javascript:;" target="_blank" title="《笑猫日记 : 塔顶上的猫》杨红樱">笑猫日记 : 塔顶...</a></li>
+        <li><a style="color:rgb(52, 113, 176);" href="javascript:;"  target="_blank" title="《漫画十万个为什么(自然科学卷探索号2)》书香童年">漫画十万个为什么...</a></li>
+        <li><a style="color:rgb(52, 113, 176);" href="" target="_blank" title="《窗边的小豆豆》[日]黑柳彻子">窗边的小豆豆</a></li>
+        <li><a href="" target="_blank" title="《看见》柴静">看见</a></li>
+        <li><a href="" target="_blank" title="《细讲弟子规》蔡礼旭">细讲弟子规</a></li>
+        <li><a href="" target="_blank" title="《目送》龙应台">目送</a></li>
+        <li><a href="" target="_blank" title="《简爱》[英]夏洛蒂•勃朗特">简爱</a></li>
+        <li><a href="" target="_blank" title="《致我们终将逝去的青春--赵薇导演处女作原著小说》辛夷坞">致我们终将逝去...</a></li>
+        <li><a href="" target="_blank" title="《外星文明的探索》蔡新吉">外星文明的探索...</a></li>
+        <li><a href="" target="_blank" title="《左耳》饶雪漫">左耳</a></li>
+      </ul>
+    </div>
+    <div class="lend_read" style="margin-top:20px;">
+        <h3>收藏榜</h3>
+        <p></p>
+    </div>
+    <div class="read_content">
+      <ul>
+        <li><a style="color:rgb(52, 113, 176);" href="javascript:;" target="_blank" title="《阿狸尾巴》Hans著绘">阿狸•尾巴</a></li>
+        <li><a style="color:rgb(52, 113, 176);" href="javascript:;" target="_blank" title="《滚蛋吧,肿瘤君》熊顿">滚蛋吧,肿瘤君</a></li>
+        <li><a style="color:rgb(52, 113, 176);" href="javascript:;" target="_blank" title="《薄荷香女孩》谢倩霓">薄荷香女孩</a></li>
+        <li><a href="" target="_blank" title="《看见》柴静">看见</a></li>
+        <li><a href="" target="_blank" title="《阿狸•永远站》Hans著绘">阿狸•永远站</a></li>
+        <li><a href="" target="_blank" title="《目送》龙应台">目送</a></li>
+        <li><a href="" target="_blank" title="《简爱》[英]夏洛蒂•勃朗特">简爱</a></li>
+        <li><a href="" target="_blank" title="《狼,狼,你来了吗？》[比]马里奥•哈默斯">狼,狼,你来了...</a></li>
+        <li><a href="" target="_blank" title="《三毛流浪记(全集)》张乐乎">三毛流浪记(全...</a></li>
+        <li><a href="" target="_blank" title="《幻城》郭敬明">幻城</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="content_t_right">
+      <div class="content_t_r_h">
+        <ul>
+          <li><a href="javascript:;">
+            <img src="img/mis_250.jpg" alt="">
+          </a></li>
+          <li style="margin:0 7px;"><a href="javascript:;">
+            <img src="img/mis_251.jpg" alt="">
+          </a></li>
+          <li style="float:right;"><a href="javascript:;">
+            <img src="img/mis_252.jpg" alt="">
+          </a></li>
+        </ul>
+      </div>
+      <div style="clear: both;"></div>
+      <div class="net" style="margin:5px 0 0;">
+          <h3>网站推荐</h3>
+          <p>More</p>
+      </div>
+      <div class="content_t_img">
+          <div class="content_t_first">
+              <div class="content_t_title">
+                <a href="javascript:;" id="a1" onmouseover="over(1,1)">精品文学</a>
+                <a href="javascript:;" id="a2" onmouseover="over(1,2)">青春励志</a>
+                <a href="javascript:;" id="a3" onmouseover="over(1,3)">互联电商</a>
+                <a href="javascript:;" id="a4" onmouseover="over(1,4)">小学必读</a>
+                <a href="javascript:;" id="a5" onmouseover="over(1,5)">动漫绘本</a>
+              </div>
+              <div class="content_t_book">
+                <ul>
+                  <li><a href="javascript:;">
+                    <img id="b_b1" src="img/one1.png" alt="">
+                  </a></li>
+                  <li><a href="javascript:;">
+                    <img id="b_bb1" src="img/two1.png" alt="">
+                  </a></li>
+                  <li><a href="javascript:;">
+                    <img id="b_bbb1" src="img/three1.png" alt="">
+                  </a></li>
+                  <li><a href="javascript:;">
+                    <img id="b_bbbb1" src="img/four1.jpg" alt="">
+                  </a></li>
+                  <li><a href="javascript:;">
+                    <img id="b_bbbbb1" src="img/five1.jpg" alt="">
+                  </a></li>
+                </ul>
+              </div>
+          </div>
+          <div class="content_t_first">
+               <div class="content_t_title">
+                 <a href="javascript:;" id="b1" onmouseover="over1(1,1)">经营营销</a>
+                 <a href="javascript:;" id="b2" onmouseover="over1(1,2)">国学经典</a>
+                 <a href="javascript:;" id="b3" onmouseover="over1(1,3)">历史文学</a>
+                 <a href="javascript:;" id="b4" onmouseover="over1(1,4)">中学必读</a>
+                 <a href="javascript:;" id="b5" onmouseover="over1(1,5)">儿童教育</a>
+               </div>
+               <div class="content_t_book">
+                 <ul>
+                   <li><a href="javascript:;">
+                     <img id="c_c1" src="img/six1.png" alt="">
+                   </a></li>
+                   <li><a href="javascript:;">
+                     <img id="c_cc1" src="img/seven1.png" alt="">
+                   </a></li>
+                   <li><a href="javascript:;">
+                     <img id="c_ccc1" src="img/eight1.png" alt="">
+                   </a></li>
+                   <li><a href="javascript:;">
+                     <img id="c_cccc1" src="img/nine1.jpg" alt="">
+                   </a></li>
+                   <li><a href="javascript:;">
+                     <img id="c_ccccc1" src="img/ten1.jpg" alt="">
+                   </a></li>
+                 </ul>
+               </div>
+          </div>
+          <div class="content_t_first">
+               <div class="content_t_title">
+                 <a href="javascript:;" id="c1" onmouseover="over2(1,1)">保健运动</a>
+                 <a href="javascript:;" id="c2" onmouseover="over2(1,2)">公益慈善</a>
+                 <a href="javascript:;" id="c3" onmouseover="over2(1,3)">人生解惑</a>
+                 <a href="javascript:;" id="c4" onmouseover="over2(1,4)">旅行户外</a>
+                 <a href="javascript:;" id="c5" onmouseover="over2(1,5)">扎根图书</a>
+               </div>
+               <div class="content_t_book">
+                 <ul>
+                   <li><a href="javascript:;">
+                     <img id="d_d1" src="img/eleven1.png" alt="">
+                   </a></li>
+                   <li><a href="javascript:;">
+                     <img id="d_dd1" src="img/twelve1.png" alt="">
+                   </a></li>
+                   <li><a href="javascript:;">
+                     <img id="d_ddd1" src="img/threety1.png" alt="">
+                   </a></li>
+                   <li><a href="javascript:;">
+                     <img id="d_dddd1" src="img/fourty1.jpg" alt="">
+                   </a></li>
+                   <li><a href="javascript:;">
+                     <img id="d_ddddd1" src="img/fifty1.jpg" alt="">
+                   </a></li>
+                 </ul>
+               </div>
+          </div>
+      </div>
+  </div>
+  <div style="clear:both;"></div>
+  <div class="content_t_left">
+      <ul>
+        <li><a href="javascript:;">
+          <img src="images/content_t_1.jpg" alt="">
+        </a></li>
+        <li><a href="javascript:;">
+          <img src="images/content_t_2.png" alt="">
+        </a></li>
+        <li><a href="javascript:;">
+          <img src="images/content_t_3.jpg" alt="">
+        </a></li>
+        <li><a href="javascript:;">
+          <img src="images/content_t_4.jpg" alt="">
+        </a></li>
+        <li><a href="javascript:;">
+          <img src="images/content_t_5.jpg" alt="">
+        </a></li>
+        <li><a href="javascript:;">
+          <img src="images/content_t_6.jpg" alt="">
+        </a></li>
+      </ul>
+      <div class="content_t_lht">
+        <img src="images/lh4.png" alt="">
+        <div class="lht-lun">
+          <div class="lht_click">
+          <ul id="data"></ul>
+          </div>
+        </div>
+        <div id="textarea" >
+        <textarea name="" id="" cols="" rows="">
+
+   欢迎您把对漫步人生网站的想法和建议反馈给我们，感谢！
+        </textarea>
+        </div>
+        <div class="buttons">
+          <div class="btn1">
+            <input type="image" src="images/tj.jpg" />
+          </div>
+          <div class="btn1">
+              <a href="javascript:;">
+                <img src="images/ck.jpg" alt="">
+              </a>
+          </div>
+        </div>
+      </div>
+  </div>
+<!--   <div style="clear: both;"></div> -->
+  <div class="content_r_right">
+      <div class="content_t_r_h">
+        <ul>
+          <li><a href="javascript:;">
+            <img src="images/mid_250.jpg" alt="">
+          </a></li>
+          <li style="margin:0 7px;"><a href="javascript:;">
+            <img src="images/mid-251.jpg" alt="">
+          </a></li>
+          <li style="float:right;"><a href="javascript:;">
+            <img src="images/mid_252.jpg" alt="">
+          </a></li>
+        </ul>
+      </div>
+      <div style="clear: both;"></div>
+      <div class="net" style="margin:5px 0 0;">
+          <h3>热评图书</h3>
+          <p>More</p>
+      </div>
+      <div class="bookContent-r-t">
+          <ul>
+              <li>
+                <a href="">
+                   <img src="img/sm0.jpg" alt="" />
+                </a>
+                <div class="hot-content">
+                  <h2>目送</h2>
+                  <p>
+                    <span>tangtang:</span>
+                    很多时候不是我们去看父母的背影，
+                    更多的时候是我们承受爱我们的人追逐的目光，
+                    承受他们不舍的，他们不放心的，满
+                  </p>
+                </div>
+              </li>
+              <li>
+                <a href="">
+                  <img src="img/sm1.jpg" alt="" />
+                </a>
+                <div class="hot-content">
+                  <h2>看见</h2>
+                  <p>
+                    <span>飘逸♩发型:</span>
+                    ksdlajfkjasdkfjadks
+                  </p>
+                </div>
+              </li>
+              <li>
+                <a href="">
+                   <img src="img/sm2.jpg" alt="" />
+                </a>
+                <div class="hot-content">
+                  <h2>【肉支队】选手名单</h2>
+                  <p>
+                    <span>yunyi:</span>
+                    支持101粉发，贫乳，傲娇的妹纸
+                  </p>
+                </div>
+              </li>
+              <li style="margin-top:50px;">
+                <a href="">
+                  <img src="img/sm3.jpg" alt="" />
+                </a>
+                <div class="hot-content">
+                  <h2>我们始终牵手旅行</h2>
+                  <p>
+                    <span>dddd:</span>
+                    旅行是我们来到这个世界上完成的第一件事，无师自通。
+                  </p>
+                </div>
+              </li>
+              <li style="margin-top:50px;">
+                <a href="">
+                   <img src="img/sm4.jpg" alt="" />
+                </a>
+                <div class="hot-content">
+                  <h2>滚蛋吧,肿瘤君</h2>
+                  <p>
+                    <span>tangtang:</span>
+                    好好看！
+                  </p>
+                </div>
+              </li>
+              <li style="margin-top:50px;">
+                <a href="javascript:;">
+                  <img src="img/sm5.jpg" alt="" />
+                </a>
+                 <div class="hot-content">
+                  <h2>致我们终将逝去的青春</h2>
+                  <p>
+                    <span>曼德拉:</span>
+                    现在是中与洋的文化较量，
+                    是东与西的文化文化PK。
+                    厌倦了眼下那些冲击眼球，
+                    甚至美轮美奂的大片，
+                    花上钱去影院,让眼球紊
+                  </p>
+                </div>
+              </li>
+          </ul>
+      </div>
+      <div>
+        <img src="img/mid-down-1.bmp.bmp" alt="">
+      </div>
+  </div>
+</div>
+<!--    底部的内容   -->
+<div class="footer">
+ <div class="foot_content">
+   <ul>
+     <li>
+       <h2>联系我们</h2>
+        <a href="javascript:;">详细信息</a>
+     </li>
+     <li>
+       <h2>公司资料</h2>
+       <a href="javascript:;">机构信用代码证</a>
+       <a href="javascript:;">税务登记证</a>
+       <a href="javascript:;">营业执照</a>
+       <a href="javascript:;">网站地图</a>
+       <a href="javascript:;">网站域名证书</a>
+     </li>
+     <li>
+       <h2>媒体关注</h2>
+       <a href="javascript:;">宣传媒体</a>
+       <a href="javascript:;">媒体关注</a>
+     </li>
+     <li>
+       <h2>书言摘录</h2>
+       <a href="javascript:;">创意说明</a>
+       <a href="javascript:;">书言摘录</a>
+     </li>
+     <li>
+       <h2>爱的寄语</h2>
+       <a href="javascript:;">四方支持</a>
+
+     </li>
+     <li>
+       <h2>关于捐书</h2>
+       <a href="javascript:;">捐书细则</a>
+     </li>
+   </ul>
+ </div>
+ <div class="foot_l_content">
+   <p>信息产业部增值许可证:粤B1,B2-20080198广电经营许可证号:（粤）字第557号</p>
+   <p>双软编号:DGY-2009-2004粤ICP备12030263号-1</p>
+ </div>
+</div>
+<!-------fixed----->
+<div class="erWeiMa">
+    <div class="ewm"></div>
+</div>
+<div class="phone">
+    <div class="tel"></div>
+</div>
+
+<div class="qq"></div>
+</body>
+<script type="text/javascript" src="js/jquery-1.11.3.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+</html>

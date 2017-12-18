@@ -1,0 +1,366 @@
+body,html{
+    position:relative;
+    height:100%;
+    font-size:62.5%;
+}
+
+*{
+    margin:0;
+    padding:0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif,"微软雅黑";
+    font-size:14px;
+}
+
+.head-two{
+    background-color:rgba(241,241,241,0.85);
+    opacity:0.8;
+    position: fixed;
+    top:70px;
+    width:100%;
+    height:50px;
+    border-bottom:1px solid #ccc;
+    z-index:2;
+}
+.head-two .two-content{
+    width:1200px;
+    height:50px;
+    margin:0 auto;
+    color:#fff;
+}
+.two-content ul{
+    float: right;
+}
+.two-content ul li{
+    list-style: none;
+    float: left;
+    height:50px;
+    line-height:50px;
+    margin-right:20px;
+}
+.two-content ul li a{
+    font-size:14px;
+    color:#555;
+}
+.two-content ul li a:hover{
+    text-decoration: none;
+}
+.two-content .shouYe{
+    background-color:#fff;
+    padding:0 8px;
+    border-bottom:1px solid #ccc;
+}
+.two-content .shangShi{
+    display:inline-block;
+    border:1px solid #fff;
+    height:25px;
+    line-height:25px;
+    background-color:#fff;
+    padding:0 2px;
+    border-radius:10%;
+}
+.two-content .shop{
+    display:inline-block;
+    border-color: #285e8e;
+    height:25px;
+    line-height:25px;
+    background-color:#3071a9;
+    color:#fff;
+    padding:0 2px;
+    border-radius:10%;
+}
+
+
+/*-----------内容-------------*/
+
+.content {
+    min-height: 100%;
+    background-image: url("../img/functionsbgxs.jpg");
+    overflow: hidden;
+    background-size: cover;
+}
+.content .functions{
+    margin-top:10%;
+    height:100%;
+    width:100%;
+}
+.content .functions .row{
+    width:100%;
+    height:100%;
+}
+.content .row .col-lg-2{
+    height:100%;
+
+}
+.content .row .col-lg-6{
+    height:100%;
+
+}
+.content .row h2{
+    width:100px;
+    margin-left:78px;
+}
+.content .row .p1{
+    width:280px;
+    margin-left:80px;
+}
+.content .row .space{
+    text-indent:10px;
+    width:300px;
+    margin:40px 0 0 130px;
+}
+.content .row .LA{
+    width:300px;
+    margin:30px 0 0 190px;
+}
+
+.content .row .ear{
+    font-size:16px !important;
+    color:#fff;
+}
+/*--------时-------分-------秒---------------*/
+.content .row #clock{
+    width:540px;
+    height:540px;
+    background-image: url('../img/watchfacefusion.png');
+    background-size:100% 100%;
+    position: relative;
+    margin:0 auto;
+}
+ ul li{
+    list-style: none;
+}
+#clock #sec{
+    background-image:url("../img/sechand.png");
+    z-index:3;
+    width:24px;
+    height:600px;
+    position: absolute;
+    left:258px;
+    top:-30px;
+}
+
+#clock #min{
+    background-image:url("../img/minhand.png");
+    z-index:1;
+    width:24px;
+    height:600px;
+    position: absolute;
+    left:258px;
+    top:-30px;
+}
+#clock #hour{
+    background-image:url("../img/hourhand.png");
+    width:24px;
+    height:600px;
+    position: absolute;
+    left:258px;
+    top:-30px;
+}
+#bg01{
+    background-image:url("../img/p0.png");
+    background-size:100%;
+    display: none;
+}
+#bg02{
+    background-image:url("../img/p10.png");
+    background-size:100%;
+    display: none;
+}
+#bg03{
+    background-image:url("../img/p20.png");
+    background-size:100%;
+    display: none;
+}
+#bg04{
+    background-image:url("../img/p30.png");
+    background-size:100%;
+    display: none;
+}
+#bg05{
+    background-image:url("../img/p40.png");
+    background-size:100%;
+    display: none;
+}
+#bg06{
+    background-image:url("../img/p50.png");
+    background-size:100%;
+    display: none;
+}
+#bg07{
+    background-image:url("../img/p60.png");
+    background-size:100%;
+    display: none;
+}
+#bg08{
+    background-image:url("../img/p70.png");
+    background-size:100%;
+    display: none;
+}
+#bg09{
+    background-image:url("../img/p80.png");
+    background-size:100%;
+    display: none;
+}
+#bg10{
+    background-image:url("../img/p90.png");
+    background-size:100%;
+    display: none;
+}
+#bg11{
+    background-image:url("../img/p100.png");
+    background-size:100%;
+    display: none;
+}
+.percentage{
+    width:540px;
+    height:540px;
+    position: absolute;
+    top:0;
+    left:0;
+    z-index:4;
+    background-size:100% 100%;
+}
+/*--------小屏显示-------*/
+.content .functions2{
+    margin-top:20%;
+    height:100%;
+    width:100%;
+}
+.functions2 .row h2{
+    padding:0;
+    margin:0;
+}
+.functions2 .row p{
+    font-size:1rem;
+    width:100%;
+}
+
+.functions2 .row a{
+    margin:10px 0 0 0 ;
+}
+.content .row #clock1{
+    width:270px;
+    height:270px;
+    background-image: url('../img/watchface.png');
+    background-size:100% 100%;
+    position: relative;
+    margin: 0 auto;
+}
+ul li{
+    list-style: none;
+}
+.hand{
+    position: absolute;
+    width:11px;
+    height:270px;
+    left:130px;
+    background-size:100% 100%;
+}
+
+#clock1 #sec1{
+    background-image:url("../img/sechand.png");
+    z-index:3;
+}
+
+#clock1 #min1{
+    background-image:url("../img/minhand.png");
+    z-index:1;
+
+}
+#clock1 #hour1{
+    background-image:url("../img/hourhand.png");
+}
+
+.percentage1{
+    width:270px;
+    height:2700px;
+    position: absolute;
+    top:0;
+    left:0;
+    z-index:4;
+}
+#bg001{
+    background-image:url("../img/p0.png");
+    background-size:100%;
+    display: none;
+}
+#bg002{
+    background-image:url("../img/p10.png");
+    background-size:100%;
+    display: none;
+}
+#bg003{
+    background-image:url("../img/p20.png");
+    background-size:100%;
+    display: none;
+}
+#bg004{
+    background-image:url("../img/p30.png");
+    background-size:100%;
+    display: none;
+}
+#bg005{
+    background-image:url("../img/p40.png");
+    background-size:100%;
+    display: none;
+}
+#bg006{
+    background-image:url("../img/p50.png");
+    background-size:100%;
+    display: none;
+}
+#bg007{
+    background-image:url("../img/p60.png");
+    background-size:100%;
+    display: none;
+}
+#bg008{
+    background-image:url("../img/p70.png");
+    background-size:100%;
+    display: none;
+}
+#bg009{
+    background-image:url("../img/p80.png");
+    background-size:100%;
+    display: none;
+}
+#bg010{
+    background-image:url("../img/p90.png");
+    background-size:100%;
+    display: none;
+}
+#bg011{
+    background-image:url("../img/p100.png");
+    background-size:100%;
+    display: none;
+}
+
+/*------媒体查询---------*/
+@media screen and (min-width:1200px){
+    .content{
+        background-image: url("../img/functionsbg.jpg");
+    }
+
+}
+
+@media screen and (min-width:992px){
+    .content{
+        background-image: url("../img/functionsbgmd.jpg");
+    }
+    .functions2{display: none;}
+}
+
+@media screen and (max-width:992px){
+
+    .head-two{
+        display: none;
+    }
+    .functions{
+        display: none;
+    }
+
+}
+
+
+
+
